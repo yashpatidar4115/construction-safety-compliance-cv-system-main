@@ -2,6 +2,7 @@
 # Torch/Torchvision are intentionally not pinned here because the GPU Docker image already provides CUDA-enabled builds.
 ultralytics
 opencv-python
+opencv-python-headless
 numpy
 pandas
 pyyaml
