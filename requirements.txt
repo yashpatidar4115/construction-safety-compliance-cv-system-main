@@ -1,9 +1,8 @@
 # Core application and model packages.
 # Torch/Torchvision are intentionally not pinned here because the GPU Docker image already provides CUDA-enabled builds.
-
 streamlit
-opencv-python-headless
-numpy
+opencv-python-headless==4.10.0.84
+numpy<2.0
 pandas
 PyYAML
 Pillow
